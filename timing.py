@@ -11,4 +11,5 @@ def test_function():
 
 ############------------ DRIVER CODE ------------############
 if __name__ == "__main__":
-    test_function()
+    print(timeit.Timer(test_function).timeit(number=1))
+    # 5.000440147
