@@ -27,13 +27,22 @@ def test_function_three():
 ############------------ DRIVER CODE ------------############
 if __name__ == "__main__":
     test_function_one()
-    # first run
+    ## first run
     # 5.000404831999999
 
+    ## second run
+    # 5.003282615
+
     test_function_two()
-    # first run
+    ## first run
     # 10.005152463999998
 
+    ## second run
+    # 10.006699564000002
+
     test_function_three()
-    # first run
+    ## first run
     # 50.027108164
+
+    ## second run
+    # 50.016481751
