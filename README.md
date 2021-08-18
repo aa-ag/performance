@@ -7,3 +7,4 @@ Looking into ways to measure performance.
 - `conda create -n performance`
 - `conda activate performance`
 - `conda install python`
+- `pip install -U memory_profiler`
